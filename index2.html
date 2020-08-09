@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <center><h1>QUIZ-APP</h1> </center>
+        <div class="counter">
+            <h2 id="min">00</h2>
+            <h2 id="sec">00</h2>
+            <h2 id="millisec">00</h2>
+        </div>
+    </header>
+    <!-- <img src="https://img.freepik.com/free-vector/yellow-quiz-background-hand-drawn-style_23-2147592672.jpg?size=338&ext=jpg" alt=""> -->
+   <fieldset>
+       <p>Q1:What is the capital of pakistan?</p>
+       <input type="radio" name="sst" id="q1-a">karachi</input>
+       <input type="radio" name="sst" id="q1-b">Islamabad</input>
+       <input type="radio" name="sst" id="q1-c">Lahore</input>
+       <input type="radio" name="sst" id="q1-d">peshawar</input>
+   
+    </fieldset>
+    <fieldset>
+        <p>Q2:2+3?</p>
+        <input type="radio" name="math" id="q2-a">3</input>
+        <input type="radio" name="math" id="q2-b">4</input>
+        <input type="radio" name="math" id="q2-c">10</input>
+        <input type="radio" name="math" id="q2-d">5</input>
+    
+     </fieldset>
+     <fieldset>
+        <p>Q3:What is the National sports of pakistan?</p>
+        <input type="radio" name="pst" id="q3-a">Cricket</input>
+        <input type="radio" name="pst" id="q3-b">Hocky</input>
+        <input type="radio" name="pst" id="q3-c">Football</input>
+        <input type="radio" name="pst" id="q3-d">Tennis</input>
+    
+     </fieldset>
+     <fieldset>
+        <p>Q4:The National Bird of Pakistan is?</p>
+        <input type="radio" name="pst1" id="q4-a">cow</input>
+        <input type="radio" name="pst1" id="q4-b">Markhor</input>
+        <input type="radio" name="pst1" id="q4-c">shaheen</input>
+        <input type="radio" name="pst1" id="q4-d">eagle</input>
+    
+     </fieldset>
+     <fieldset>
+        <p>Q5:The Independence Day of Pakistan is ?</p>
+        <input type="radio" name="pst3" id="q5-a">14 August</input>
+        <input type="radio" name="pst3" id="q5-b">13 August</input>
+        <input type="radio" name="pst3" id="q5-c">2 June</input>
+        <input type="radio" name="pst3" id="q5-d">6 september</input>
+    
+     </fieldset>
+       <div >
+     <center><button type="submit" onclick="submit()">submit</button></center>
+     <center><input type="text" id="result" class="result" disabled></center>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

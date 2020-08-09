@@ -1,0 +1,72 @@
+fieldset{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,75,0.5802696078431373) 23%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+button{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,121,9,0.5690651260504201) 35%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px darkred;
+    color: white;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color: yellow;
+}
+input{
+font-size: 25px;
+}
+ body{
+     background-color: black;
+    /* background-image: url("https://img.freepik.com/free-vector/yellow-quiz-background-hand-drawn-style_23-2147592672.jpg?size=338&ext=jpg");}  */
+
+
+ }.result{
+        color: white;
+        border: none;
+         width: 30%;
+         height: 60px;
+         margin-top: 10px;
+         border-radius: 10px;
+         font-size: 30px;
+         font-weight: bold;
+         background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,17,0.8715861344537815) 35%, rgba(0,212,255,1) 100%);
+         
+    }
+    h1{
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px 2px yellow;
+        text-decoration: underline;
+    }
+    p{
+        font-size:25px;
+    }
+    @media screen and (max-width: 480px) {
+        .result {
+          width: 70%;
+        }
+      }
+      .counter,h2{
+          display: flex;
+          margin-left: 10px;
+          color:white;
+          font-size: 30px;
+          font-weight: bolder;
+          background-attachment: fixed;
+          display: fixed;
+          
+      }
+      
